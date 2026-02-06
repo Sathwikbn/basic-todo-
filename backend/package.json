@@ -1,0 +1,30 @@
+{
+  "name": "advanced-todo-backend",
+  "version": "0.1.0",
+  "private": true,
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js",
+    "lint": "eslint src",
+    "test": "echo \"No tests configured\""
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-rate-limit": "^7.4.0",
+    "helmet": "^7.1.0",
+    "joi": "^17.13.3",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.5.2",
+    "morgan": "^1.10.0",
+    "socket.io": "^4.7.5",
+    "swagger-ui-express": "^5.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^9.8.0",
+    "nodemon": "^3.1.4"
+  }
+}
